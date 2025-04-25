@@ -3,14 +3,15 @@ import Nav from "./Nav";
 
 export default function Select() {
   return (
-    <div className="min-h-[100vh] rounded-tl-lg bg-[#EFECE6]">
+    <div className="min-h-[100vh] w-full rounded-tl-lg bg-[#EFECE6]">
       <div>
         <div>
           <Nav />
         </div>
-        <div>
-          <div className="flex items-center justify-center gap-3 p-2">
-            <h1 className=" text-3xl">Explore Quizzes</h1>
+        <div className="flex flex-col items-center justify-center gap-3 p-3 ">
+          <div className="flex items-center justify-between gap-3 p-3  w-[350px]">
+            <h1 className=" text-xl">Explore Quizzes</h1>
+            <Link className="text-xl" href="/rulesPage">Rules</Link>
           </div>
           <div className="flex flex-col items-center justify-center gap-3 p-2">
             <div className="flex items-center justify-center gap-3 p-2">
